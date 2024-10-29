@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"3.can(github)\startup_stm32f427xx.o"
+"3.can(github)\main.o"
+"3.can(github)\gpio.o"
+"3.can(github)\can.o"
+"3.can(github)\stm32f4xx_it.o"
+"3.can(github)\stm32f4xx_hal_msp.o"
+"3.can(github)\stm32f4xx_hal_can.o"
+"3.can(github)\stm32f4xx_hal_rcc.o"
+"3.can(github)\stm32f4xx_hal_rcc_ex.o"
+"3.can(github)\stm32f4xx_hal_flash.o"
+"3.can(github)\stm32f4xx_hal_flash_ex.o"
+"3.can(github)\stm32f4xx_hal_flash_ramfunc.o"
+"3.can(github)\stm32f4xx_hal_gpio.o"
+"3.can(github)\stm32f4xx_hal_dma_ex.o"
+"3.can(github)\stm32f4xx_hal_dma.o"
+"3.can(github)\stm32f4xx_hal_pwr.o"
+"3.can(github)\stm32f4xx_hal_pwr_ex.o"
+"3.can(github)\stm32f4xx_hal_cortex.o"
+"3.can(github)\stm32f4xx_hal.o"
+"3.can(github)\stm32f4xx_hal_exti.o"
+"3.can(github)\stm32f4xx_hal_tim.o"
+"3.can(github)\stm32f4xx_hal_tim_ex.o"
+"3.can(github)\system_stm32f4xx.o"
+--strict --scatter "3.CAN(Github)\3.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "3.map" -o 3.CAN(Github)\3.CAN(Github)
